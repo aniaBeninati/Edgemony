@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendario</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="./Immagini/logo.png" alt="Logo">
+    </div>
+    <div class="search-menu">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="ladisciplina.html">La disciplina</a></li>
+                <li><a href="galleria.html">Gallery</a></li>
+                <li><a href="maestre.html">Maestre</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contenitore 1">
+        <h1 class="scritta">Manipura</h1>
+        <h2 class="scritta">Pianifica con noi</h2>
+    </div>
+</header>
+<div class="contenitore 2">
+    <div class="vignetta">
+        <p class="regolare1">Il nostro planning
+        </p>
+        <p class="regolare2"> Vivete nel presente, non nel futuro, Fate del vostro meglio oggi; non aspettate il
+            domani!
+        </p>
+        <p style="font-size: small; font-style: italic;">
+            Paramahansa Yogananda
+        </p>
+    </div>
+    </div>
+    <div class="calendario-content">
+        <div class="flex-around" style="margin-top: 50px;">
+            <img src="./Immagini/immagine scura.jpg" alt="Immagine scura">
+            <table class="calendario-orari">
+                <tr>
+                    <th>Orari</th>
+                    <th>Lunedì</th>
+                    <th>Martedì</th>
+                    <th>Mercoledì</th>
+                    <th>Giovedì</th>
+                    <th>Venerdì</th>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td>BASE</td>
+                    <td>/</td>
+                    <td>BASE</td>
+                    <td>INTERMEDIO</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>17:30</td>
+                    <td>BASE</td>
+                    <td>INTERMEDIO</td>
+                    <td>INTERMEDIO</td>
+                    <td>TRANSITION</td>
+                    <td>TRANSITION</td>
+                </tr>
+                <tr>
+                    <td>18:30</td>
+                    <td>INTERMEDIO</td>
+                    <td>INTERMEDIO</td>
+                    <td>TRANSITION</td>
+                    <td>TRANSITION</td>
+                    <td>INTERMEDIO</td>
+                </tr>
+                <tr>
+                    <td>20:00</td>
+                    <td>AVANZATO</td>
+                    <td>TRANSITION</td>
+                    <td>TRANSITION</td>
+                    <td>AVANZATO</td>
+                    <td>AVANZATO</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h3 style="color:#fff; text-align: center; margin-top: 50px; margin-bottom: 50px;">Richiedi informazioni</h3>
+    <form action="mailto:schedamanipura@gmail.com" method="post" class="styled-form">
+        <table>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" required></td>
+            </tr>
+            <tr>
+                <td><label for="cognome">Cognome:</label></td>
+                <td><input type="text" id="cognome" name="cognome" required></td>
+            </tr>
+            <tr>
+                <td><label for="eta">Età:</label></td>
+                <td><input type="number" id="eta" name="eta" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="messaggio">Messaggio:</label></td>
+                <td><textarea id="messaggio" name="messaggio" rows="4" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><button type="submit">Invia</button></td>
+            </tr>
+        </table>
+    </form>
+        <footer>
+            <div class="contact-info">
+                <h3>MANIPURA PALERMO</h3>
+                <div class="social-icons">
+                    <img src="./Icone/facebook_5968764.png">
+                    <a href="https://www.instagram.com/manipura_asd.palermo?igsh=OTg4cmVtOHlqanNs"
+                        target="_blank"><img src="./Icone/instagram_2111463.png"></a>
+                    <img src="./Icone/tik-tok_4782345.png">
+                </div>
+                <p>&copy; 2017 All Rights Reserved - Daria Minutoli / Flying Yoga Dance® - PI 000000000000 - CF
+                    00000000000- Tutti i diritti riservati.</p>
+            </div>
+            <div class="info-email">
+                <p>Pubblicità sulla nostra scuola?
+                </p>
+                <button><a href="mailto:infomanipura@gmail.com"
+                        style="text-decoration: none; color:inherit">Richiedi info
+                    </a></button>
+            </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,362 @@
+/* Inizio stile */
+body {
+  background-color: #c6d0b6;
+  /* Colore di sfondo centrale ripreso dal colore del logo */
+  margin: 0px;
+}
+
+/* Centrare il menu per il responsive */
+.search-menu ul {
+  padding: 0;
+}
+
+/* Colore delle scritte */
+.scritta {
+  color: #fff;
+}
+
+/* Stile per h1 */
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  /* Medium */
+  font-size: 78px;
+}
+
+/* Stile per h2 */
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  /* Medium */
+  font-size: 45px;
+}
+
+/* Stile per h3 */
+h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  /* Medium */
+  font-size: 36px;
+}
+
+/* Stile per i testi regolari */
+.regolare1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  /* Medium */
+  font-size: 20px;
+  color: #3d3d3d
+}
+
+.regolare2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  /* Regular */
+  font-size: 16px;
+  color: #3d3d3d
+}
+
+.vignetta {
+  background-color: white;
+  padding: 20px;
+  /* Aggiunge spazio intorno al contenuto */
+  border-radius: 20px;
+  /* Angoli smussati */
+  overflow: hidden;
+  /* Assicura che il contenitore non mostri contenuti che superano i bordi arrotondati */
+}
+
+header {
+  background-image: url(./Immagini/La\ disciplina.jpg);
+  background-size: cover;
+  /* Per adattare l'immagine alla dimensione dell'header */
+  background-position: center;
+  /* Posizione dell'immagine all'interno dell'header */
+  padding: 10px 0;
+  margin: 0 auto;
+  /* Per centrare l'header nella pagina */
+  text-align: center;
+  /* Centra eventuali testi all'interno dell'header */
+}
+
+.logo {
+  margin-left: 20px;
+  /* Aggiunge margine sinistro al logo */
+}
+
+.logo img {
+  width: 250px;
+  /* Ridimensiona il logo */
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  /* Colore grigio per le scritte */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #6fa4a2;
+  /* Cambia colore al passaggio del mouse */
+}
+
+/* Inizio stile parte centrale */
+
+/* Stili per la galleria di immagini */
+.gallery {
+  display: flex;
+  /* Utilizza il layout flessibile */
+  overflow-x: auto;
+  /* Abilita lo scorrimento orizzontale */
+  scroll-snap-type: x mandatory;
+  /* Abilita lo scorrimento snap orizzontale */
+  scroll-behavior: smooth;
+  /* Rendi lo scorrimento fluido */
+}
+
+/* Stili per le immagini */
+.gallery img {
+  flex: 0 0 auto;
+  /* Imposta le immagini a dimensioni fisse */
+  width: 30%;
+  /* Imposta la larghezza desiderata */
+  height: auto;
+  /* Altezza automatica mantenendo l'aspetto proporzionato */
+  scroll-snap-align: start;
+  /* Allinea le immagini allo snap point */
+  border-radius: 10px;
+  /* Aggiunge angoli tondi */
+}
+
+/* Stili per rendere le immagini più accattivanti */
+.gallery img:hover {
+  transform: scale(1.05);
+  /* Effetto ingrandimento al passaggio del mouse */
+  transition: transform 0.3s ease;
+  /* Transizione fluida */
+}
+
+
+/* Stili per il form */
+.styled-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.styled-form table {
+  width: 100%;
+}
+
+.styled-form td {
+  padding: 10px;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="number"],
+.styled-form input[type="email"],
+.styled-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.styled-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.styled-form button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+/* Inizio stile Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* Aggiunge uno spazio tra le icone */
+  border-radius: 50%;
+  /* Aggiunge un bordo arrotondato */
+  border: 1px solid #ccc;
+  /* Aggiunge un bordo sottile */
+  transition: transform 0.3s ease;
+  /* Aggiunge un effetto di transizione al passaggio del mouse */
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  /* Ingrandisce leggermente l'icona al passaggio del mouse */
+}
+
+
+.map-container {
+  margin-top: 50px;
+}
+
+.calendar {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.day {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.schedule {
+  margin-left: 20px;
+}
+
+.info-email {
+  text-align: center;
+  margin-top: 80px;
+  background-color: #c6d0b6;
+  padding: 20px;
+  /* Aggiunge spazio intorno al contenuto */
+  border-radius: 20px;
+  /* Angoli smussati */
+  overflow: hidden;
+  /* Assicura che il contenitore non mostri contenuti che superano i bordi arrotondati */
+}
+
+.schede-maestre {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendario-orari {
+  border-collapse: collapse
+}
+
+.calendario-orari td,
+.calendario-orari th,
+.calendario-orari tr {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contenitore-immagine img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .schede-maestre img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .calendario-content {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .calendario-content .flex-around {
+    flex-direction: column;
+  }
+
+  .calendario-content .flex-around img,
+  .calendario-content .flex-around table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .calendario-content .flex-around table th,
+  .calendario-content .flex-around table td {
+    min-width: 100px;
+    white-space: nowrap;
+  }
+}
+
+.contatti-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .contatti-content {
+    width: 100%;
+    margin-top: 0px;
+    flex-direction: column;
+    /* Imposta la disposizione in colonna per gli elementi */
+    align-items: center;
+    /* Centra gli elementi lungo l'asse orizzontale */
+  }
+
+  .contatti-content>div {
+    width: 100%;
+    margin-bottom: 20px;
+    /* Aggiunge spazio tra gli elementi */
+    margin-top: 0px;
+    /* Annullare il margine del desktop */
+  }
+
+  .contatti-content>div>img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    /* Imposta la disposizione dei div in colonna */
+    align-items: center;
+    /* Centra gli elementi lungo l'asse orizzontale */
+  }
+
+  .contact-info,
+  .info-email {
+    width: 100%;
+    /* Imposta la larghezza al 100% */
+    margin-top: 0;
+  }
+}

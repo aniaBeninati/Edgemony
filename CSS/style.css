@@ -1,0 +1,21 @@
+h1 {
+    font-size: 48px;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: red;
+    text-transform: capitalize;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #000000;
+  }
+  a {
+    color: #FF5733; /* Cambia il colore del link */
+    text-decoration: underline; /* Rende il testo del link sottolineato */
+  }
+  /* Utilizzo del CSS */

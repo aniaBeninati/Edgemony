@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercitazione-06-maggio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titolo">Cucina Botanica</h1>
+        <h2 class="introduzione_testuale">Ricette vegetali, facili e veloci</h2>
+        <ul>
+            <li>Home</li>
+            <li>Ricette</li>
+            <li>Articoli</li>
+            <li>Corso</li>
+            <li>Shop</li>
+            <li>Chi siamo</li>
+            <li>Contatti</li>
+        </ul>
+    </header>
+    <!-- Crea una sezione della pagina web che contenga un titolo e l'introduzione testuale su un
+argomento a tua scelta. L’intera sezione dovrà essere racchiusa in un unico contenitore -->
+    <!--Aggiungi alla tua pagina una nuova sezione contenente una lista non ordinata di elementi a
+tua scelta. Ad esempio libri preferiti, film, hobby, linguaggi e tecnologie,ecc-->
+
+    <section>
+        <h2>Creme spalmabili</h2>
+
+        <article>
+            <h3>Crema spalmabile al tofu pomodorosa</h3>
+            <img src="./Immagini/Crema spalmabile al tofu pomodorosa.jpg" alt="Perfetta per l'aperitivo" />
+            <p>Una crema spalmabile al tofu perfetta per accompagnare pane, tartine, piadine e crostini, che vi salverà
+                al prossimo aperitivo. Perfetta anche per entrare in confidenza col tofu, ingrediente fantastico come
+                base in cucina!</p>
+            <a href="https://www.cucinabotanica.com/ricette/crema-spalmabile-al-tofu-pomodorosa/" target="_blank"
+                rel="noopener noreferrer">Leggi di più</a>
+        </article>
+
+        <article>
+            <h3>Crema spalmabile al tofu pestosa</h3>
+            <img src="./Immagini/Crema spalmabile al tofu pestosa.jpg" alt="Perfetta per accompagnare il pane" />
+            <p>Una crema spalmabile al tofu perfetta per accompagnare pane, tartine, piadine e crostini, che vi salverà
+                al prossimo aperitivo. Perfetta anche per entrare in confidenza col tofu, ingrediente fantastico come
+                base in cucina!</p>
+            <a href="https://www.cucinabotanica.com/ricette/crema-spalmabile-al-tofu-pestosa/" target="_blank"
+                rel="noopener noreferrer">Leggi di più</a>
+        </article>
+
+        <article>
+            <h3>Crema spalmabile al tofu olivosa</h3>
+            <img src="./Immagini/Crema spalmabile al tofu olivosa.jpg" alt="Perfetta per il brunch" />
+            <p>Una crema spalmabile al tofu perfetta per accompagnare pane, tartine, piadine e crostini, che vi salverà
+                al prossimo aperitivo. Perfetta anche per entrare in confidenza col tofu, ingrediente fantastico come
+                base in cucina!
+            </p>
+            <a href="https://www.cucinabotanica.com/ricette/crema-spalmabile-al-tofu-olivosa/" target="_blank"
+                rel="noopener noreferrer">Leggi di più</a>
+        </article>
+    </section>
+    <!--Crea una sezione con un titolo e un numero di articoli a tua scelta. Ogni articolo dovrà avere
+un titolo, un breve testo e un link che si apra in una nuova scheda e che indirizzi l’utente a
+un sito di tuo interesse.-->
+    <!--Modifica la sezione creata nell’esercizio 3 aggiungendo un’immagine pertinente per ogni
+articolo. Assicurati di fornire un testo alternativo per l’immagine.-->
+
+    <section>
+        <h2>Divulghiamo uno stile di vita più sano e sostenibile</h2>
+        <p>Crediamo che <strong>l’educazione nutrizionale</strong> e culinaria sia la base per la nostra <em>salute a
+                lungo termine</em>.</p>
+        <p>Promuoviamo un’<b>alimentazione a base vegetale</b> per <i>vocazione</i>, per la <mark>salute</mark> e per il
+            <b>pianeta</b>.
+        </p>
+    </section>
+    <!--Crea una nuova sezione con un titolo e diversi paragrafi. All’interno dei paragrafi, utilizza i
+tag strong, b, em, i, mark, ecc… per evidenziare parole o frasi.-->
+
+    <form action="mailto:cucinabotanica@gmail.com" method="post" class="styled-form">
+        <table>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" required></td>
+            </tr>
+            <tr>
+                <td><label for="cognome">Cognome:</label></td>
+                <td><input type="text" id="cognome" name="cognome" required></td>
+            </tr>
+            <tr>
+                <td><label for="eta">Età:</label></td>
+                <td><input type="number" id="eta" name="eta" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Telefono:</label></td>
+                <td><input type="text" id="telefono" name="telefono" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="messaggio">Messaggio:</label></td>
+                <td><textarea id="messaggio" name="messaggio" rows="4" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><button type="submit">Invia</button></td>
+            </tr>
+        </table>
+    </form>
+    <!--Crea un form che permetta agli utenti di iscriversi inserendo i loro dati personali. Il form
+dovrà includere campi per il nome, cognome, email e numero di telefono.-->
+</body>
+
+</html>

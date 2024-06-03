@@ -1,0 +1,270 @@
+ body {
+     font-family: 'Rubik', sans-serif;
+     margin: 0;
+     padding: 0;
+     background: #f7f4ef;
+     scroll-behavior: smooth;
+ }
+
+
+ header {
+     background-image: url('./Immagini/header.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+ }
+
+
+ .logo-container {
+     margin-right: 20 px;
+     position: relative;
+     width: 100px;
+     height: 100px;
+ }
+
+ .logo {
+     max-width: 100px;
+     height: auto;
+ }
+
+ ul {
+     text-align: center;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     background-color: #7dbe31;
+     display: inline-block;
+     border-radius: 5px;
+ }
+
+ ul li {
+     display: inline;
+     margin-right: 20px;
+ }
+
+ ul li a {
+     display: inline-block;
+     padding: 10px 20px;
+     text-decoration: solid;
+     color: #fff;
+
+ }
+
+ ul li a:hover {
+     background-color: #93CF48;
+ }
+
+ .titolo {
+     font-size: 36px;
+     margin-bottom: 10px;
+ }
+
+ .introduzione_testuale {
+     font-size: 24px;
+ }
+
+ section {
+     padding: 20px;
+     margin: 20px auto;
+     max-width: 800px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     background-color: #7dbe31;
+ }
+
+
+ h1 {
+     color: #f7f4ef;
+     font-family: 'Rubik', sans-serif;
+     font-weight: bold;
+     font-size: 78px;
+ }
+
+ h2 {
+     color: #f7f4ef;
+     font-size: 32px;
+     font-weight: normal;
+ }
+
+ h3 {
+     color: #777;
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ /*Imposta background-color e box-shadow su diversi elementi. Aggiungi una pseudo-classe
+:hover per cambiare lo stile di un elemento quando l’utente ci passa sopra con il mouse
+*/
+
+ .elemento {
+     margin-bottom: 20px;
+ }
+
+ .elemento h3 {
+     margin-top: 0;
+ }
+
+ .elemento p {
+     margin-bottom: 10px;
+ }
+
+ .elemento img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 5px;
+     box-shadow: 5px 5px 10px 2px #333333;
+ }
+
+ .elemento a {
+     display: block;
+     padding: 5px 10px;
+     margin-top: 10px;
+     background-color: #3d3d3d;
+     color: #fff;
+     text-decoration: none;
+     text-align: center;
+     border-radius: 3px;
+ }
+
+ .elemento a:hover {
+     background-color: #555;
+ }
+
+ form {
+     max-width: 600px;
+     margin: 20px auto;
+ }
+
+ form table {
+     margin: 20px auto;
+     border-collapse: collapse;
+ }
+
+ form table td {
+     padding: 10px;
+     text-align: right;
+ }
+
+ form table input[type="text"],
+ form table input[type="email"],
+ form table textarea {
+     width: 100%;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+     box-sizing: border-box;
+ }
+
+ form table button {
+     padding: 10px 20px;
+     background-color: #333;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+
+ form table button:hover {
+     background-color: #555;
+ }
+
+
+ /*Modifica il colore di sfondo, visualizzazione e dimensioni degli elementi quando la pagina è
+visualizzata su dispositivi mobili e desktop.*/
+
+ /* Stili per dispositivi desktop */
+
+ @media only screen and (min-width: 768px) {
+     header {
+         padding: 20px 40px;
+     }
+
+     .logo-container {
+         margin-right: 40px;
+     }
+
+     .titolo {
+         font-size: 48px;
+     }
+
+     .introduzione_testuale {
+         font-size: 32px;
+     }
+ }
+
+ /* Stili per dispositivi mobili */
+ @media only screen and (max-width: 767px) {
+     header {
+         flex-direction: column;
+         align-items: flex-start;
+         padding: 20px;
+         color: #3d3d3d;
+     }
+
+     section {
+         background-color: #ea899a;
+     }
+
+     .logo-container {
+         margin-bottom: 20px;
+     }
+
+     ul {
+         text-align: left;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         background-color: #ea899a;
+     }
+
+     ul li {
+         display: block;
+         margin-bottom: 10px;
+     }
+
+     .titolo {
+         font-size: 36px;
+         margin-bottom: 10px;
+     }
+
+     .introduzione_testuale {
+         font-size: 24px;
+     }
+
+ }
+
+ .form-container {
+     width: 600px;
+     height: 600px;
+     margin: 0 auto;
+     border: 2px solid #ccc;
+     padding: 20px;
+     border-radius: 10px;
+     box-sizing: border-box;
+ }
+
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     /* Per consentire il wrap degli elementi se lo spazio è insufficiente */
+ }
+
+ .flex-item {
+     width: 50%;
+     /* Dimensione del 50% per dispositivi desktop */
+     flex: 1;
+     /* Per distribuire uniformemente gli elementi all'interno del container */
+     background-color: #ccc;
+     padding: 20px;
+     box-sizing: border-box;
+     /* Per includere il padding nel calcolo della larghezza */
+ }
+
+ /* Media query per dispositivi mobili */
+ @media only screen and (max-width: 767px) {
+     .flex-item {
+         width: 25%;
+     }
+ }

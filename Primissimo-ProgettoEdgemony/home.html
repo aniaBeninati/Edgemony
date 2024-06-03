@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homepage</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img src="./Immagini/logo.png" alt="Logo">
+    </div>
+    <div class="search-menu">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="ladisciplina.html">La disciplina</a></li>
+                <li><a href="galleria.html">Gallery</a></li>
+                <li><a href="maestre.html">Maestre</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contenitore 1">
+        <h1 class="scritta">Manipura</h1>
+        <h2 class="scritta">Flying yoga dance Academy</h2>
+    </div>
+</header>
+<div class="contenitore 2">
+    <div class="vignetta">
+        <p class="regolare1">Yoga Aereo dinamico
+        </p>
+        <p class="regolare2"> Lo yoga aereo è un tipo ibrido di yoga sviluppato da Michelle Dortignac nel 2006 che
+            combina posizioni yoga tradizionali , pilates e danza con l’uso di un’amaca Lo yoga
+            aereo è stato sviluppato da Michelle Dortignac nel 2006, utilizzando una combinazione
+            di posizioni yoga tradizionali , pilates e danza con l’uso di un’amaca. Fly Yoga è stato
+            sviluppato in Francia nel 2009 da Florie Ravinet in collaborazione con un fisioterapista ed
+            è stato “approvato da professionisti della salute”. AeroYoga è stato sviluppato nello stesso
+            periodo da Rafael Martinez. Lo spazio Manipura Academy, nasce con il concetto di allenarsi in un
+            giardino al coperto, in un atmosfera distesa e rilassante.
+            La scuola è il posto giusto dove trovare la cura per il proprio corpo e la propria anima, un luogo dove
+            incontrare se stessi e gli altri, dove poter far rivivere il tuo corpo e allegerire la tua mente.
+            Manipura è il posto dove puoi vivere il tuo momento ZEN.
+        </p>
+    </div>
+</div>
+<!-- Contenuto principale della pagina -->
+<div style="text-align: center; margin-top: 50px;">
+    <video width="60%" height="40%" controls>
+        <source src="./Immagini/Volere Potere Volare.mp4" type="video/mp4">
+    </video>
+</div>
+<div style="display: flex; margin-top: 50px;">
+    <div class="vignetta" style="height: 100%;">
+        <div style="display: flex;">
+            <img src="./Immagini/Contorna con testo.png" alt="Immagine con testo" style="height: 240px;">
+            <div>
+                <p class="regolare1">L'importanza del relax in amaca </p>
+                <p class="regolare2"> Lo yoga aereo richiede un tipo speciale di amaca , un sostegno progettato per
+                    sostenere in
+                    media fino a 300 chilogrammi. Il rig è tipicamente costituito da catene di supporto, una
+                    cinghia in tessuto, un’amaca di seta e moschettoni . Due catene di sostegno pendono dal
+                    soffitto a meno di un metro dal livello del suolo e l’amaca è collegata all’altezza impostata
+                    dall’utente. Esistono due stili di installazione di un’amaca per yoga aerea, a seconda degli
+                    effetti desiderati: due punti di ancoraggio (per una maggiore stabilità) o un punto di
+                    ancoraggio, per offrire al partecipante una maggiore libertà di movimento. L’amaca agisce
+                    come un’altalena che sostiene i fianchi per i piegamenti in avanti e all’indietro. Le posture
+                    yoga difficili basate sul tappetino possono rivelarsi più facili da eseguire attraverso lo
+                    yoga aereo, mentre il movimento dell’amaca contribuisce ulteriormente ad aggiungere
+                    varietà all’allenamento aereo. Una volta distesi in amaca, c’è veramente da lasciare
+                    spazio alla creatività e all’ascolto del proprio
+                    corpo, se siete attenti a voi stessi e rilassati, potrete
+                    godere appieno dei benefici e della sensazione di
+                    benessere che crea, lo stare sospesi per aria completamente
+                    avvolti
+                    “nell’abbraccio materno del tessuto
+                    antigravity“.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 style="color:#fff; text-align: center; margin-top: 50px; margin-bottom: 50px;">Richiedi informazioni</h3>
+<form action="mailto:schedamanipura@gmail.com" method="post" class="styled-form">
+    <table>
+        <tr>
+            <td><label for="nome">Nome:</label></td>
+            <td><input type="text" id="nome" name="nome" required></td>
+        </tr>
+        <tr>
+            <td><label for="cognome">Cognome:</label></td>
+            <td><input type="text" id="cognome" name="cognome" required></td>
+        </tr>
+        <tr>
+            <td><label for="eta">Età:</label></td>
+            <td><input type="number" id="eta" name="eta" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="messaggio">Messaggio:</label></td>
+            <td><textarea id="messaggio" name="messaggio" rows="4" cols="50" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;"><button type="submit">Invia</button></td>
+        </tr>
+    </table>
+</form>
+<footer>
+    <div class="contact-info">
+        <h3>MANIPURA PALERMO</h3>
+        <div class="social-icons">
+            <img src="./Icone/facebook_5968764.png">
+            <a href="https://www.instagram.com/manipura_asd.palermo?igsh=OTg4cmVtOHlqanNs" target="_blank"><img
+                    src="./Icone/instagram_2111463.png"></a>
+            <img src="./Icone/tik-tok_4782345.png">
+        </div>
+        <p>&copy; 2017 All Rights Reserved - Daria Minutoli / Flying Yoga Dance® - PI 000000000000 - CF 00000000000-
+            Tutti i diritti riservati.</p>
+    </div>
+    <div class="info-email">
+        <p>Pubblicità sulla nostra scuola?
+        </p>
+        <button><a href="mailto:infomanipura@gmail.com" style="text-decoration: none; color:inherit">Richiedi info
+            </a></button>
+    </div>
+</footer>
+</body>
+</html>
