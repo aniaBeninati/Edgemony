@@ -57,3 +57,5 @@ formEl.onsubmit = function (evento) {
         }
     }
 }
+
+// aggiunto commento per esercitazione su GitHub
